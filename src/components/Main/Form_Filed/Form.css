@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 6.25rem;
+    background-color: rgba(138, 192, 236, 0.7);
+    span {
+        font-size: 1.75rem;
+    }
+    input {
+        padding: 0.625rem;
+        border-radius: 1rem;
+        border: none;
+    }
+    select {
+        padding: 0.625rem;
+        border-radius: 0.5rem;
+        border: none;
+    }
+    button {
+        padding: 0.625rem;
+        border-radius: 0.5rem;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
